@@ -12,7 +12,7 @@ tasks_api.include_router(tasks.tasks_api)
 
 # Set up the logger
 logger = logging.getLogger(__name__)
-setup_logger(logger, log_file_path='C:\\Users\\Hanan Siddeeek\\Desktop\\pythonProject\\app.log')
+setup_logger(logger, log_file_path='C:\\Users\\Hanan Siddeeek\\Desktop\\Task\\app.log')
 
 
 # Exception handler for RequestValidationError
