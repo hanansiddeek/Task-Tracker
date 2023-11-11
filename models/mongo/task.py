@@ -6,6 +6,6 @@ class MongoTasks(Document):
 
     task_name = StringField(required=True)
     created_at = DateTimeField(required=True)
-    updated_at = DateTimeField(required=False)
+    updated_at = DateTimeField(required=True)
     status = StringField(required=True, default="Assigned")
     description = StringField(required=False)
