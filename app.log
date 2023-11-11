@@ -1,0 +1,30 @@
+2023-11-09 20:24:08,101 - INFO - Received request: GET http://127.0.0.1:8000/docs
+2023-11-09 20:24:09,129 - INFO - Received request: GET http://127.0.0.1:8000/openapi.json
+2023-11-09 21:52:30,931 - INFO - Received request: GET http://127.0.0.1:8000/openapi.json
+2023-11-09 21:53:08,897 - INFO - Received request: POST http://127.0.0.1:8000/tasks
+2023-11-10 13:31:29,650 - INFO - Received request: GET http://127.0.0.1:8000/
+2023-11-10 13:31:33,085 - INFO - Received request: GET http://127.0.0.1:8000/favicon.ico
+2023-11-10 13:31:40,040 - INFO - Received request: GET http://127.0.0.1:8000/docs
+2023-11-10 13:31:40,934 - INFO - Received request: GET http://127.0.0.1:8000/openapi.json
+2023-11-10 14:22:29,706 - INFO - Received request: GET http://127.0.0.1:8000/tasks?task_id=654ccf2fbec4f9d080854b7b
+2023-11-10 14:22:50,395 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=Writting
+2023-11-10 14:23:17,039 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=Drawing
+2023-11-10 14:24:02,003 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=reading
+2023-11-10 14:24:22,208 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=five
+2023-11-10 14:24:29,086 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=five
+2023-11-10 14:24:53,038 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=Three
+2023-11-10 14:25:18,037 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/status?query_str=completed
+2023-11-10 14:25:53,033 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=%22Four%22
+2023-11-10 14:25:57,438 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/id?query_str=%22Four%22
+2023-11-10 14:26:51,953 - INFO - Received request: PUT http://127.0.0.1:8000/tasks ?task_id=654cd008bec4f9d080854b7d
+2023-11-10 14:27:13,067 - INFO - Received request: DELETE http://127.0.0.1:8000/tasks ?task_id=654cd008bec4f9d080854b7d
+2023-11-10 14:27:38,513 - INFO - Received request: GET http://127.0.0.1:8000/docs
+2023-11-10 14:27:38,859 - INFO - Received request: GET http://127.0.0.1:8000/openapi.json
+2023-11-10 14:28:07,187 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/name?query_str=%22Three%22
+2023-11-10 14:30:16,329 - INFO - Received request: GET http://127.0.0.1:8000/docs
+2023-11-10 14:30:16,473 - INFO - Received request: GET http://127.0.0.1:8000/openapi.json
+2023-11-10 14:30:29,382 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/name?query_str=One
+2023-11-10 14:31:03,800 - INFO - Received request: GET http://127.0.0.1:8000/docs
+2023-11-10 14:31:03,945 - INFO - Received request: GET http://127.0.0.1:8000/openapi.json
+2023-11-10 14:31:17,638 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/najhvbme?query_str=One
+2023-11-10 14:31:27,835 - INFO - Received request: GET http://127.0.0.1:8000/tasks/search/name?query_str=One
