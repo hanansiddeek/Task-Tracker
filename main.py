@@ -1,13 +1,22 @@
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
+from database.connection import connect_db
+from routes.tasks import tasks_api
 from utils.logger import setup_logger
 from routes import tasks
 from custom_exceptions import NonExistentTaskError, InvalidDataError, DatabaseConnectionError
 import logging
 
+
+@tasks_api.on_event("startup")
+async def startup_event():
+    connect = connect_db()
+    print(connect)
+
+
 # Create FastAPI application
-tasks_api = FastAPI()
+tasks_api: FastAPI = FastAPI()
 tasks_api.include_router(tasks.tasks_api)
 
 # Set up the logger
