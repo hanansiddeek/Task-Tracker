@@ -9,13 +9,6 @@ from mongoengine.errors import DoesNotExist, ValidationError
 
 
 tasks_api = APIRouter(prefix='/tasks')
-tasks_api.include_router(tasks_api)
-
-
-@tasks_api.on_event("startup")
-async def startup_event():
-    connect = connect_db()
-    print(connect)
 
 
 @tasks_api.post('',
