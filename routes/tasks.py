@@ -16,6 +16,7 @@ tasks_api = APIRouter(prefix='/tasks')
 async def create_tasks(task_creation: TaskCreation):
     task_dict = task_creation.model_dump()
     task_dict['created_at'] = datetime.utcnow()
+    task_dict['updated_at'] = datetime.utcnow()
     mongo_task = MongoTasks(**task_dict)
     mongo_task.save()
 
